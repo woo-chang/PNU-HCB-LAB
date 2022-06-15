@@ -24,5 +24,5 @@ print(data.head(1))
 # 뒷부분에서 첫번째 행까지 조회
 print(data.tail(1))
 
-user_list = pd.read_excel('../excell/sample.xlsx', sheet_name='Sheet1')
+user_list = pd.read_excel('../Excell/sample.xlsx', sheet_name='Sheet1')
 print(user_list)
